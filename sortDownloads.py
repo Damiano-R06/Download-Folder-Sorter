@@ -14,6 +14,10 @@ CATEGORIES = {
     "Code": [".py", ".java", ".html", ".c", ".json"],
 }
 
-for item in downloads.iterdir():
-    if item.is_file():
-        print(item.name, "->", item.suffix)
+def get_category(suffix):
+    for folder_name, extensions in CATEGORIES.items():
+        if suffix in extensions:
+            return folder_name
+        
+
+            
