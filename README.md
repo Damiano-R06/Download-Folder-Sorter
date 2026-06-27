@@ -26,7 +26,7 @@ Scans your Downloads folder and moves files into organized subfolders based on f
 ## Usage
 
 ```bash
-python organizer.py
+python sortsDownloads.py
 ```
 
 > **Note:** The script targets your system's Downloads folder automatically (`~/Downloads`). Back up any important files before running.
